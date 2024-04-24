@@ -10,5 +10,5 @@ rs.status();  // returning the current status of the replcation set
 
 
 db = db.getSiblingDB("e-inventory"); // Creating database
-
-db.createCollection("products"); // creating collection
+db.createCollection("products"); // creating collection for products inventory
+db.createCollection("orders"); // creating collection for orders recieved
